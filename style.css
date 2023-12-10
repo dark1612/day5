@@ -1,0 +1,129 @@
+h1{
+
+    height:50px;
+    width:1500px;
+    background-color: gray;
+    color: bisque;
+    text-align: center;
+    
+
+}
+h1:hover{
+    background-color: brown;
+    
+}
+nav {
+    display: flex;
+    background-color: antiquewhite;
+    height: 25px;
+    width:1500px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+    
+  }
+  section {
+    height: 325px;
+    max-width: 1500px;
+    background-color: saddlebrown;
+  }
+  .flex{
+    display: flex;
+    height: 25px;
+    width:1500px;
+    background-color: bisque;
+    color:black;
+    align-items: center;
+    justify-content:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+  }
+  .container{
+
+    height: 40px;
+    
+    background-color: rgb(249, 249, 244);
+
+  }
+  div{
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+  a{
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  img{
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+  }
+  
+    div:hover{
+        background-color: rgb(194, 123, 123);
+        width: auto;
+    }
+  
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 15px;
+    }
+    
+  }
+  
+  
+  h3 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  img:hover + h3 {
+    opacity: 1;
+    padding: 35px;
+  }
+  
+  nav a:hover {
+    background-color: #3498db;
+    color: #fff;
+  
+  }
+
+  section:hover{
+    transform: scale(1.05);}
+  
+  img:hover + h3 {
+    opacity: 1;
+  }
+  
+
+  nav a, section, img, h3 {
+    transition: all 0.3s ease;
+  }
+
+  footer:hover {
+
+   z-index: inherit;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.5);
+    
+    
+  }
+  
+  p{
+    display: flex;
+    background-color: rgb(197, 236, 67);
+    justify-content: center;
+    font-size: large;
+    height:35px;
+    align-items: center;
+    
+
+  }
+  
